@@ -8,7 +8,9 @@ public class OOP15 {
         Person5 p4 = myTools.copyPerson(p);
         System.out.println("p: age=" + p.age + ", name=" + p.name);
         System.out.println("p4: age=" + p4.age + ", name=" + p4.name);
-        System.out.println(p==p4);
+        System.out.println("p's hashcode: " + p.hashCode());
+        System.out.println("p4's hashcode: " + p4.hashCode());
+        System.out.println(p == p4);
     }
 }
 
